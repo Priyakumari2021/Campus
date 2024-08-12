@@ -1,0 +1,424 @@
+:root {
+    --semikal-blueHermes: #002E66;
+    --semikal-primary-color: #0792B7;
+    --semikal-secondary-color: #F7A600;
+    --semikal-accent-color: #F4F4F4;
+    --semikal-dark-color-gray:#5E5E5E;
+    --semikal-darker-color-gray:#303030;
+    --semikal-color-gray:#635B5C;
+    --semikal-another-color-gray:#635B5C;
+    --semikal-light-color-gray:#9F9F9F;
+    --semikal-footer-color-gray:#5B5B5B;
+    
+}
+
+.bg-main{
+    background-color: #F2F8FC;
+}
+.bgRadiant {
+    background-color: #0072BC; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, #0072BC , #002D62);
+    overflow: hidden;
+}
+.card-radient{
+    background-color: #002D62; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, #002D62 , #0072BC);
+    overflow: hidden;
+} 
+.bgTopBottom {
+    background-color: #0072BC;
+    overflow: hidden;
+}
+.flex {
+    display: flex;
+}
+.flex-row-semi {
+    flex-direction: row;
+}
+.text-w{
+    color: rgb(255 255 255)!important;
+}
+
+.c-black{
+    color: black;
+}
+.c-black-1{
+    color: #2E2E2E;
+}
+.c-mediumblue{
+    color:#002E66
+}
+.c-blue{
+    color: #0074C2;
+}
+.bg-1{
+    background-color: #0072BC;
+}
+.bg-2{
+    background-color: #002D62!important;
+}
+.bg-3{
+    background-color: #F2F8FC;
+}
+.list-none{
+    list-style: none;
+}
+.f-16{
+    font-size:16px;
+}
+.f-18 {
+    font-size: 18px!important;
+    font-weight: 400!important;
+}
+.f-18-b{
+    font-size: 18px;
+    font-weight: 700;
+}
+.f-18-b1{
+    font-size: 18px;
+    font-weight: 600;
+}
+.f-22{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.text-center{
+    text-align: center;
+}
+.item-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.p-t-b{
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+}
+.p-t-b-1{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.p-t-b-2{
+    padding: 3em 0;
+}
+.p-t-b-3{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.b-600{
+    font-weight: 600;
+}
+.l-spacing{
+    letter-spacing: 1px;
+}
+.l-spacing-1{
+    letter-spacing: 0.8px;
+}
+.line-h{
+    line-height: 2.2em;
+}
+.line-h-1{
+    line-height: 1.5em;
+}
+.line-h-btn{
+    line-height: 1.2;
+}
+.deco-none{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.skal-navbar {
+    width: 100%;
+    padding: 1em 0;
+}
+
+
+/* ---- Styling Header Part ---- 
+.top-left-navbar img {
+    border:1px solid #FFFFFF;
+}
+.top-left-navbar span {
+    padding: 0 0.5em;
+    font-weight: 600;
+}
+/* icon bar 
+.top-right-navbar{
+    width: 100%;
+    justify-content: end;
+}*/
+/* styling label Mietglied werden in Icon bar 
+.top-right-navbar label{
+    margin-right:18px;
+    padding: 0.7em 1.5em;
+    font-weight: 600;
+}
+/* styling each icon in Icon bar 
+.icon-navbar a{
+    text-align: center;
+    padding: 10px 18px;
+    color: #FFFFFF;
+    border-left: 1px solid #0072BC;
+}*/
+
+/* styling icon text 
+.icon-text{
+    font-size: 0.7em;
+    padding-top: 5px;
+    font-weight: 600;
+    }
+
+
+.bgTopBottom ul li a{
+    text-decoration: none;
+    letter-spacing: 0.8px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+}
+.bar {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0 0.5em;
+}*/
+/* ---- Styling Header Part ---- */
+
+/* ---- Styling Footer Part ---- 
+.footer-menu ul li {
+    line-height: 2.2rem;
+}
+.footer-menu ul li i{
+    padding:0.5em;
+    border:1px solid #0072BC;
+    border-radius: 50%;
+    font-size: 24px;
+}*/
+/* ---- Styling Footer Part ---- */
+
+
+
+
+/* .whiteHermes h5{
+    font-size: 22px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.whiteHermes li {
+    font-size: 18px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+.noactive{
+    display: none!important;
+}
+.active{
+    display: inline-block;
+} */
+
+.breadcrumb-item+.breadcrumb-item::before {
+    float: left;
+    padding-right: 0.5rem;
+    color: #0792B7;
+    content: var(--bs-breadcrumb-divider, ">");
+}
+
+
+
+/* ------- Styling for main section --------- */
+.form-control, .form-select{
+    padding: .5rem .75rem!important;
+    font-size: 1.2rem!important;
+    color: #0792B7!important;
+}
+
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color:#5B5B5B!important;
+    opacity: 0.4!important;
+}
+input::-webkit-input-placeholder{
+    color:#5B5B5B!important;
+    opacity: 0.4!important;
+}
+.btn-blue{
+    padding: .5rem .75rem;
+    background-color: #002D62;
+    color: #FFFFFF;
+    border-color: #002D62;
+}
+.deco-none-1{
+    text-decoration: none;
+}
+.card a{
+    color: #0792B7;
+    text-decoration: none;
+    font-weight: 600;
+}
+.card .card-b-link{
+    padding: 1rem 0;
+}
+
+.card-shadow{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+/* ------- Styling for main section --------- */
+
+
+@media (max-width: 992px) {
+    .flex-row-semi {
+        flex-direction: column;
+    }
+    .bar{
+        display: none;
+    }
+    .footer-menu ul li {
+        line-height: 1em;
+    }
+    .flex-row-semi li{
+        padding: 0.3em 0;
+    }
+    .md\:item-center{
+        align-items: center;
+    }
+    .md\:justify-center{
+        justify-content: center;
+    }
+    .md\:pe-3{
+        padding-right: 1.5em!important;
+    }
+    .md\:xx-large {
+        font-size: 1.5em!important;
+    }
+    .f-16{
+        font-size: 16px!important;
+    }
+    .md\:p-l-r {
+        padding-left:1em;
+        padding-right: 1em;
+    }
+    .md\:social-m{
+        display: none;
+    }
+    .mob .mob-menu a{
+        text-align: left;
+        padding: 18px; 
+        text-decoration: none;
+        color: #FFFFFF;
+        font-size: 18px;
+    }
+    .icon-navbar a, .icon-navbar .burger-bar{
+        text-align: center;
+        padding: 10px;
+        color: #FFFFFF;
+        border-left: none;
+    }
+    .md\:f-18 {
+        font-size: 18px;
+    }
+    .md\:pb-2{
+        padding-bottom: 0;
+    }
+    .md\:mt{
+        margin-top: 1.5em!important;
+    }
+    .p-t-b-1, .p-t-b{
+        padding: 0;
+    }
+    
+    .desk{
+        display: none;
+    }
+    .md\:pt-5{
+        padding-top: 3em;
+        width: 100%;
+    }
+    .md\:f-22{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .md\:mt-3 {
+        margin-top: 2rem;
+    }
+    
+}
+
+@media (min-width:993px) {
+    .lg\:item-center{
+        align-items: center;
+    }
+    .lg\:justify-center{
+        justify-content: center;
+    }
+    .lg\:p-l-r {
+        padding-left:2.5em;
+        padding-right: 2.5em;
+    }
+    .lg\:p-l-r-1 {
+        padding-left:4em;
+        padding-right: 4em;
+    }
+    .lg\:pb-2{
+        padding-bottom: 0.5em;
+    }
+    .social-bar{display: none;}
+
+    .mob{
+        display: none;
+    }
+    .lg\:mt-3 {
+        margin-top: 2.7rem;
+    }
+    /* .lg\:m-height{
+        max-height: 80rem;
+    } */
+}
+
+
+
+
+/* ---- Seminar Kalender ---- */
+.region-verband a{
+    text-decoration: none;
+    border: 2px solid rgba(161, 192, 225, 0.5);
+    border-radius: 6px;
+    background-color: #F2F8FC;
+    color: #0074C2;
+    padding: 0.4rem 1.2rem;
+    margin-right: 1rem;
+}
+.shortfacts{
+    position:relative;top:-145px;
+    max-height: 80rem;
+}
+.shortfacts-text h4{
+    /* font-size: 22px; */
+    font-weight: 600;
+    color:#002E66;
+    letter-spacing:0.3px;
+}
+.shortfacts h5{
+    /* font-size: 18px; */
+    font-weight: 600;
+    color: #2E2E2E;
+    padding-top: 2em;
+    letter-spacing:0.3px;
+}
+
+@media (max-width: 992px) {
+    .shortfacts{
+    position:static;
+    margin-top: 3em!important;
+    }
+    .region-verband a{
+        margin-bottom: 1rem;
+    }
+    .kurs-buchen-btn-1{
+        display: none;
+    }
+}
+
+/* ---- Seminar Kalender ---- */
